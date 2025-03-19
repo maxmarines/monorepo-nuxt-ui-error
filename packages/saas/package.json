@@ -9,6 +9,7 @@
 		"preview": "nuxt preview",
 		"postinstall": "nuxt prepare",
 		"lint": "eslint .",
+		"update-all": "pnpm update  --interactive --latest",
 		"typecheck": "nuxt typecheck"
 	},
 	"dependencies": {
@@ -25,7 +26,7 @@
 		"@nuxt/eslint": "^1.2.0",
 		"eslint": "^9.22.0",
 		"typescript": "^5.8.2",
-		"vue-tsc": "^2.2.2"
+		"vue-tsc": "2.2.8"
 	},
 	"packageManager": "pnpm@10.6.2"
 }

@@ -6,7 +6,7 @@
 	},
 	"workspaces": ["packages/*"],
 	"resolutions": {
-		"vue-tsc": "2.2.2"
+		"vue-tsc": "2.2.8"
 	},
 
 	"pnpm": {
