@@ -1,0 +1,30 @@
+{
+	"name": "my-monorepo",
+	"private": true,
+	"scripts": {
+		"dev": "pnpm --filter nuxt-ui-pro-template-saas run dev"
+	},
+	"workspaces": ["packages/*"],
+	"resolutions": {
+		"vue-tsc": "2.2.2"
+	},
+
+	"pnpm": {
+		"onlyBuiltDependencies": [
+			"@parcel/watcher",
+			"better-sqlite3",
+			"esbuild",
+			"sharp",
+			"vue-demi",
+			"workerd"
+		]
+	},
+	"trustedDependencies": [
+		"@parcel/watcher",
+		"better-sqlite3",
+		"esbuild",
+		"nuxt-ui-pro-template-saas",
+		"sharp",
+		"vue-demi"
+	]
+}

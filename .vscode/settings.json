@@ -1,0 +1,12 @@
+{
+	"npm.packageManager": "pnpm",
+	"eslint.useFlatConfig": true,
+	"editor.formatOnSave": true,
+	"prettier.enable": true,
+	"files.associations": {
+		"*.css": "tailwindcss"
+	},
+	"editor.quickSuggestions": {
+		"strings": "on"
+	}
+}
